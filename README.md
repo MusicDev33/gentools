@@ -30,7 +30,8 @@ In your `package.json`, you'll need the following in the `scripts` section of th
 
 ```
 "generate:schemas": "ts-node src/schema.generate.ts",
-"generate:services": "ts-node src/service.generate.ts"
+"generate:services": "ts-node src/service.generate.ts",
+"generate:all": "npm run generate:schemas && npm run generate:services"
 ```
 
 You'll also need to download `ts-node` through NPM. After that, you'll have your services and schemas ready.
