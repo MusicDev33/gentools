@@ -12,9 +12,9 @@ project
   - src
     - gentools (just git clone it here)
 
-  - schema.generate.ts
-  - service.generate.ts
-  - index.ts
+    - schema.generate.ts
+    - service.generate.ts
+    - index.ts
 ```
 
 the `.generate` files can just be copied straight from gentools. This project requires NPM and you can run this script to install all the necessary packages:
