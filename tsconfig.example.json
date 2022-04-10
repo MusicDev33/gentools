@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+      "module": "commonjs",
+      "lib": ["es2021"],
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "target": "es2021",
+      "noImplicitAny": true,
+      "forceConsistentCasingInFileNames": true,
+      "noImplicitReturns": true,
+      "strict": true,
+      "noUnusedLocals": false,
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "outDir": "dist",
+      "baseUrl": "src",
+      "paths": {
+        "@gentools/*": ["gentools/*"]
+      },
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
