@@ -1,3 +1,6 @@
+## Archive
+Gen Tools is archived. I personally hate managing Git submodules, and having a whole submodule for something this small is not worth it. This project will be built into MDAPI2 and will be part of a proper CLI.
+
 ### Gen Tools
 
 #### Setup
